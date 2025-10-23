@@ -1,4 +1,5 @@
 #!/home/keitaro/anaconda3/bin/python3
+# SPDX-FileCopyrightText: 2025 Keitaro Takeda
 
 import sys
 
