@@ -1,5 +1,6 @@
 #!/home/keitaro/anaconda3/bin/python3
 # SPDX-FileCopyrightText: 2025 Keitaro Takeda
+# SPDX-License-Identifier: BSD-3-Clause
 
 import sys
 
