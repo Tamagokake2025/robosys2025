@@ -7,19 +7,18 @@
 - このUnicodeポイントを入力すると対応した文字を出力します。
 - 入力した文字はそのままに、数字だけをアルファベットに変換し、つなげることも可能です。
 # 使用方法
-- はじめに\
 ターミナルで以下のコマンドを入力。クローンしてください。
- ```
- git clone https://github.com/Tamagokake2025/robosys2025.git
- ```
- ディレクトリを移動。実行権限を与えてください。
- ```
- $cd robosys2025
- ```
- ```
- $chmod +x alnum
- ```
- alnumコマンドが使用可能になりました。
+```
+git clone https://github.com/Tamagokake2025/robosys2025.git
+```
+ディレクトリを移動。実行権限を与えてください。
+```
+$cd robosys2025
+```
+```
+$chmod +x alnum
+```
+alnumコマンドが使用可能になりました。
 
 # 実行例
 - アルファベットから数字へ
