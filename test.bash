@@ -22,11 +22,11 @@ out=$(echo "apple kei" | $prog)
 out=$(echo "7 19 26" | $prog)
 [ "${out}" = "g s z" ] || ng "$LINENO"
 
-out=$(echo @  | $prog)
-[ "${out}" = "?" ] || ng "$LINENO"
+out=$(echo @ / . = | $prog)
+[ "${out}" = "? ? ? ?" ] || ng "$LINENO"
 
-out=$(echo "27 32" | $prog)
-[ "${out}" = "? ?" ] || ng "$LINENO"
+out=$(echo "27 32 43 57" | $prog)
+[ "${out}" = "? ? ? ?" ] || ng "$LINENO"
 
 ### 結果 ###
 [ "$res" = 0 ] && echo OK

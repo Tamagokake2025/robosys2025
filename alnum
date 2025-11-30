@@ -27,8 +27,8 @@ def alnum_tr(inp):
        if 1 <= int(inp) <= 26: 
          return (chr(int(inp)+96)) #1~26番目と言われたらアルファベットを返す
 
-       elif 27<= int(inp) <= 32:
-           return '?' #コードがおそらく空の部分は？に
+       elif 27<= int(inp) <= 64:
+           return '?' #コードがおそらく空の部分は？に 記号に対応したものも？に
        elif int(inp) == 0:
            return 0
        else:
