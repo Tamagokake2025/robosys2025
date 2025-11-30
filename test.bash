@@ -31,6 +31,10 @@ out=$(echo @ / . = | $prog)
 out=$(echo "27 32 43 57" | $prog)
 [ "${out}" = "? ? ? ?" ] || ng "$LINENO"
 
+
+
+
+
 ### 結果 ###
 [ "$res" = 0 ] && echo OK
 exit $res
