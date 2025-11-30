@@ -38,12 +38,12 @@ echo "1 18 15 2 15 20" | ./alnum
  ```
  出力結果
  ```
-
+a r o b o t
  ```
 - Unicodeポイントを出力、変換
  入力
  ```
-echo "THANK YOU" | ./alnum
+echo "THANK YOU ありがとう" | ./alnum
  ```
  出力
  ```
