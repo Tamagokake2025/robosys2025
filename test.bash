@@ -31,9 +31,14 @@ out=$(echo @ / . = | $prog)
 out=$(echo "27 32 43 57" | $prog)
 [ "${out}" = "? ? ? ?" ] || ng "$LINENO"
 
+out=$(echo "こんにちは" | $prog)
+[ "${out}" = "12371 12435 12395 12385 12399" ] || ng "$LINENO"
 
+out=$(echo "! 12371 12435 12395 12385 12399" | $prog)
+[ "${out}" = "!こんにちは" ] || ng "$LINENO"
 
-
+out=$(echo "! 73 1 13 fine" | $prog)
+[ "${out}" = "!Iamfine" ] || ng "$LINENO"
 
 ### 結果 ###
 [ "$res" = 0 ] && echo OK
