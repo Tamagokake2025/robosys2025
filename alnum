@@ -29,7 +29,8 @@ def alnum_tr(inp):
 
        elif 27<= int(inp) <= 32:
            return '?' #コードがおそらく空の部分は？に
-       
+       elif int(inp) == 0:
+           return 0
        else:
            return chr(int(inp))#文字コードは文字に戻す
     elif check(inp)== 3:
