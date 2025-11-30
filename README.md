@@ -101,6 +101,10 @@ $echo " ! 73 1 13 fine  " | ./alnum
 ### 環境
 - python3
 - Ubuntu-22.04
+###参考文献
+-[Python, enumerateの使い方: リストの要素とインデックスを取得](https://note.nkmk.me/python-enumerate-start/)
+-[【Java String】joinメソッドで文字列を連結する方法まとめ](https://www.sejuku.net/blog/19307)
+-[【GitHub】README -マークダウン記法-](https://zenn.dev/n_haru2/articles/8443eea376ff53)
 ### ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
 - このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
