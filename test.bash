@@ -17,7 +17,7 @@ out=$(echo "c d y " | $prog)
 [ "${out}" = "3 4 25" ] || ng "$LINENO"
 
 out=$(echo "apple kei" | $prog)
-[ "${out}" = "1 16 16 12 11 5 9" ] || ng "$LINENO"
+[ "${out}" = "1 16 16 12 5 11 5 9" ] || ng "$LINENO"
 
 out=$(echo "7 19 26" | $prog)
 [ "${out}" = "g s z" ] || ng "$LINENO"
