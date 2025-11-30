@@ -102,6 +102,7 @@ $echo " ! 73 1 13 fine  " | ./alnum
 - python3
 - Ubuntu-22.04
 ### 参考文献
+- [PythonでUnicodeコードポイントと文字を相互変換（chr, ord, \x, \u, \U）](https://note.nkmk.me/python-chr-ord-unicode-code-point/#unicode-x-u-u)
 - [Python, enumerateの使い方: リストの要素とインデックスを取得](https://note.nkmk.me/python-enumerate-start/)
 - [【Java String】joinメソッドで文字列を連結する方法まとめ](https://www.sejuku.net/blog/19307)
 - [【GitHub】README -マークダウン記法-](https://zenn.dev/n_haru2/articles/8443eea376ff53)
