@@ -10,7 +10,7 @@ ng() {
 }
 
 res=0
-prog="./alnum.py"
+prog="./alnum"
 
 ### Normal Input ###
 out=$(echo "a b c" | $prog)
