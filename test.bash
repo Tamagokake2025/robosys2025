@@ -13,14 +13,17 @@ res=0
 prog="./alnum"
 
 ### Normal Input ###
-out=$(echo "a d y " | $prog)
-[ "${out}" = "1 4 25" ] || ng "$LINENO"
+out=$(echo "c d y " | $prog)
+[ "${out}" = "3 4 25" ] || ng "$LINENO"
 
 out=$(echo "apple kei" | $prog)
-[ "${out}" = "1 16 16 12  11 5 9" ] || ng "$LINENO"
+[ "${out}" = "1 16 16 12 11 5 9" ] || ng "$LINENO"
 
 out=$(echo "7 19 26" | $prog)
 [ "${out}" = "g s z" ] || ng "$LINENO"
+
+out=$(echo "ro 8 20 qju" | $prog)
+[ "${out}" = "18 15 h t 17 10 21" ] || ng "$LINENO"
 
 out=$(echo @ / . = | $prog)
 [ "${out}" = "? ? ? ?" ] || ng "$LINENO"
