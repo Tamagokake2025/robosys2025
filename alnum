@@ -50,6 +50,7 @@ else:
 for n in inputs:
     if n == '!':
         mode = 1
+
     if n.isdecimal():
         out.append(alnum_tr(n))#数字を文字に変換してoutに加える
 
