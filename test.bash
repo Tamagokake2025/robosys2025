@@ -40,6 +40,9 @@ out=$(echo "! 12371 12435 12395 12385 12399" | $prog)
 out=$(echo "! 73 1 13 fine" | $prog)
 [ "${out}" = "!Iamfine" ] || ng "$LINENO"
 
+out=$(echo " 73 1 !13 fine" | $prog)
+[ "${out}" = "Ia!acfine" ] || ng "$LINENO"
+
 ### 結果 ###
 [ "$res" = 0 ] && echo OK
 exit $res
