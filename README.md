@@ -72,10 +72,11 @@ $echo " ! 73 1 13 fine  " | ./alnum
 - ふと「あのアルファベットは何番目かな」と思った際に調べられる。
 - 文章を変換したコードを人に渡し、渡した先でコードを読み込ませることで、文章を呼び出せる。  
 つまり簡易な暗号の制作、読み取りが可能。
-### テスト環境
+### 環境
 - python  
-　- テスト済みバージョン: 3.7〜3.10
-- Ubuntu-22.04 LTS
+　- リモートテスト済みバージョン: 3.7〜3.10
+- Ubuntu
+  - リモートテスト済みバージョン: 22.04.03 LTS
 ### 参考文献
 - [PythonでUnicodeコードポイントと文字を相互変換（chr, ord, \x, \u, \U）](https://note.nkmk.me/python-chr-ord-unicode-code-point/#unicode-x-u-u)
 - [Python, enumerateの使い方: リストの要素とインデックスを取得](https://note.nkmk.me/python-enumerate-start/)
