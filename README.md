@@ -1,8 +1,7 @@
 # alnum コマンド
-- 入力されたアルファベットが、何番目かを出力する。
-- 入力された1~26の数字には、対応したアルファベットを小文字で出力する。
-- 大文字のアルファベットや、日本語が入力された場合には、1文字ずつUnicodeポイントを出力する。
-- このUnicodeポイントを入力すると対応した文字を出力する。
+- 入力されたアルファベットが、1~26 の内の何番目かを出力する。
+- 入力された1~26の数字に対して、対応したアルファベットに小文字で変換する。
+- 大文字のアルファベットや、日本語が入力された場合には、1文字ずつUnicodeポイントに変換。
 - 入力した文字はそのままに、数字だけをアルファベットに変換し、つなげることも可能。
 ### 使用方法
 　ターミナルで以下のコマンドを入力。クローン。
@@ -85,5 +84,5 @@ $echo " ! 73 1 13 fine  " | ./alnum
 ### ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
 - このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
-- [ryuichiueda/slides_marp/robosys2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
+  - [ryuichiueda/slides_marp/robosys2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
 - © 2025 Keutaro Takeda
