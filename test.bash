@@ -53,7 +53,7 @@ out=$(echo | $prog)
 [ "$?" = 0 ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(echo ( ) | $prog)
+out=$(echo "( )" | $prog)
 [ "$?" != 0 ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
