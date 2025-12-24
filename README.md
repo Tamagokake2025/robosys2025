@@ -11,8 +11,6 @@ $git clone https://github.com/Tamagokake2025/robosys2025.git
 　ディレクトリを移動。実行権限を付与。
 ```
 $cd robosys2025
-```
-```
 $chmod +x alnum
 ```
 　alnumコマンドが使用可能になる。
