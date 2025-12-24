@@ -74,7 +74,7 @@ $echo " ! 73 1 13 fine  " | ./alnum
 ### 環境
 - python  
 　- リモートテスト済みバージョン: 3.7〜3.10
-- Ubuntu 
+- Ubuntu  
 　- リモートテスト済みバージョン: 22.04.03 LTS
 ### 参考文献
 - [PythonでUnicodeコードポイントと文字を相互変換（chr, ord, \x, \u, \U）](https://note.nkmk.me/python-chr-ord-unicode-code-point/#unicode-x-u-u)
