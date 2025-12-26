@@ -73,7 +73,7 @@ $echo " ! 73 1 13 fine  " | ./alnum
 - python  
 　- リモートテスト済みバージョン: 3.7〜3.10
 - Ubuntu  
-　- リモートテスト済みバージョン: 24.04.03 LTS
+　- リモートテスト済みバージョン: 24.04.3 LTS
 ### 参考文献
 - [PythonでUnicodeコードポイントと文字を相互変換（chr, ord, \x, \u, \U）](https://note.nkmk.me/python-chr-ord-unicode-code-point/#unicode-x-u-u)
 - [Python, enumerateの使い方: リストの要素とインデックスを取得](https://note.nkmk.me/python-enumerate-start/)
