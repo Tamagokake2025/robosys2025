@@ -1,4 +1,5 @@
 # alnum コマンド
+![test](https://github.com/tamagokake2025/robosys2025/actions/workflows/test.yml/badge.svg)
 - 入力された小文字のアルファベットが、1~26 の内の何番目かを出力する。
 - 入力された1~26の数字に対して、対応した小文字のアルファベットに変換する。
 - 大文字のアルファベットや日本語、1~26以外の数字が入力された場合には、1文字ずつUnicodeポイントで相互変換する。
